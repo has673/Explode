@@ -5,6 +5,7 @@ import { Experience } from "./components/Experience";
 
 function App() {
   return (
+    <main  className="main">
     <Canvas shadows camera={{ position: [0, 0, 5], fov: 30 }}>
       <color attach="background" args={["#ececec"]} />
       <ScrollControls pages={4}>
@@ -12,6 +13,7 @@ function App() {
        
       </ScrollControls>
     </Canvas>
+    </main>
   );
 }
 
